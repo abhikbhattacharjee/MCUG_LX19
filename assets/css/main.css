@@ -2571,7 +2571,7 @@ input, select, textarea {
 					padding: 1.5em 0.5em 1.35em 0.5em;
 				}
 
-				#nav > ul > li:first-child {
+				#nav > ul > li.first-child {
 					margin-left: 0;
 				}
 
