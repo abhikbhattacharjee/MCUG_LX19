@@ -7,6 +7,27 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #37c0fb;
+	border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2658,7 +2679,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: url("../../images/Linuxication.mp4");
+		background: url("../../images/mit.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
